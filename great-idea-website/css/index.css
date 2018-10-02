@@ -1,66 +1,341 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
 /* Set every element's box-sizing to border-box */
+
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
+
 /* Your code starts here! */
+
+
+/*testing*/
+
+body  {
+    border: 1px solid palevioletred;
+}
+
+/*testing*/
+
+body * {
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+hr {
+    width: 100%;
+    margin: 60px 0px 40px 0px;
+}
+
+p, a {
+    font-family: "Titillium Web";
+    font-size: 15px;
+}
+
+nav {
+    height: 50px;
+    margin: 0px 0px 20px 0px;
+}
+
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+nav a {
+    display: inline-block;
+    width: 100px;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    color: lightgrey;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.logo-frame {
+    text-align: center;
+    height: 100%;
+    display: inline-block;
+    float: right;
+}
+
+.logo-helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+nav img {
+    vertical-align: middle;
+}
+
+header {
+    display:block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 40px
+}
+
+.left-column{
+    width: 40%;
+    display: inline-block
+}
+
+header h1{
+    width: 100%;
+    font-family: bangers;
+    font-size: 75px;
+    text-align: center;
+    padding: 5%;
+}
+header img{
+    display: inline-block;
+    width: 40%;
+    float: right;
+    height: 100%;
+    padding: %;
+}
+
+.button{
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    vertical-align: middle;
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 1px black;
+}
+
+main {
+    width: 900px;
+}
+
+h2{
+    font-family: bangers;
+    font-size: 1.3em;
+    margin: 0.7em 0px 0.7em 0px;
+}
+
+.main-content-columns1{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-content-columns1 .column{
+    width: 49.7%;
+    display: inline-block;
+}
+
+.main-content-columns1 p{
+    display: inline-block;
+}
+
+.middle-img-helper{
+    width: 100%;
+}
+
+.middle-img{
+    display: block;
+    width: 90%;
+    margin: 15px auto 30px auto;
+}
+
+.main-content-columns2{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-content-columns2 .column{
+    width: 33%;
+    display: inline-block;
+}
+
+address{
+    display: inline-block;
+    width: 20%;
+    height: 120px;
+}
+
+address p{
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+
+address a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+
+footer{
+    width: 100%;
+}
+
+footer p{
+    text-align: center;
+}
