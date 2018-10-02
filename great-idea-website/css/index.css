@@ -147,6 +147,7 @@ html,
 body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+    font-family: 'Amatic SC', cursive;
 }
 
 h1,
@@ -182,7 +183,7 @@ hr {
 }
 
 p, a {
-    font-family: "Titillium Web";
+    font-family: "Amatic SC";
     font-size: 15px;
 }
 
