@@ -217,6 +217,11 @@ nav a {
     border-radius: 15px;
     background-color: lightslategrey;
     margin: 8px 4px 8px 4px;
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+}
+
+nav a:hover{
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
 }
 
 .logo-frame {
